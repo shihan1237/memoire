@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+    
+    
+    
+}
+
+body {
+    color: #fff;
+    background: rgb(83, 119, 187);
+}
+
+.App {
+    max-width: 728px;
+    margin: 8vh auto;
+}
+
+.App > h1 {
+    text-align: center;
+    margin: 3vw 0;
+}
+
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(139, 42, 96);
+    padding: 1vh 2vh;
+    overflow: hidden;   
+}
+.Card--text {
+    flex: 1;
+    word-break: break-all;
+}
+
+.Card--button {
+    flex: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    
+    
+}
+
+.Card--text h1 {
+    color: #c8ff00;
+}
+
+.Card--button button {
+    background: #f5f6f7;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Card--button__delete {
+    border: 1px solid #ca0000;
+    color: #ca0000;
+    /* margin-right: 5vw; */
+}   
+
+.Card--button__done {   
+    border: 1px solid #00aa69;
+    color: #00aa69;
+    /* margin-right: 5vw; */
+}
+
+.hide-button {   
+    border: 1px solid #9b9b9b;
+    color: #9b9b9b;
+    /* margin-right: 5vw; */
+}
+
+.Form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #444;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.Form > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form input {
+    flex: 1;
+    background: #f5f6f7;
+    padding: 0.5rem 1rem;
+    border: 1px solid #00aa69;
+    border-radius: 10px;
+    display: block;
+    margin: 0.3rem 1rem 0 0;
+    width: 30vw;
+    max-width: 200px;
+}
+
+
+.Form button {
+    flex: 0;
+    background: #c8ff00;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: #777 !important;
+}
